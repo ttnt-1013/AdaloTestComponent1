@@ -1,0 +1,21 @@
+{
+  "displayName": "Test Component",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "items",
+      "displayName": "What is this list of?",
+      "type": "list"
+    },
+    {
+      "name": "data1",
+      "displayName": "Data1",
+      "type": "text",
+      "role": "listItem",
+      "reference": "items"
+    }
+  ]
+}

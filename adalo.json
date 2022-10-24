@@ -1,0 +1,12 @@
+{
+  "displayName": "atatest",
+  "components": [
+    {
+      "name": "TestComponent",
+      "manifest": "./src/components/TestComponent/manifest.json"
+    }
+  ],
+  "author": "Yoshinori Takagi",
+  "description": "lib for test",
+  "logo": "./example-logo.png"
+}
